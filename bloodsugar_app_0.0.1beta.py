@@ -7,6 +7,7 @@
 
 # 导入必要的Python标准库模块
 import streamlit as st  # 用于构建Web应用的Python框架
+import streamlit.components.v1 as components
 import sys  # 提供对Python解释器相关功能的访问
 import os  # 提供与操作系统交互的功能
 
@@ -14,6 +15,13 @@ import os  # 提供与操作系统交互的功能
 # 这样Python解释器能够找到我们自定义的模块文件
 sys.path.append(os.path.join(os.path.dirname(__file__), 'modules'))  # 添加modules文件夹路径
 sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))  # 添加utils文件夹路径
+
+st.markdown(
+    """
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    """,
+    unsafe_allow_html=True
+)
 
 # 设置Streamlit页面配置
 st.set_page_config(
