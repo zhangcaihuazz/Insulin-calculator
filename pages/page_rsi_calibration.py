@@ -23,7 +23,7 @@ weight = st.number_input('请输入食物的重量 (单位：克)', min_value=0.
 # 使用 number_input 创建一个数值输入框，最小值为 0.0，步长为 0.1，允许用户输入食物的重量。
 
 # 输入框，获取食品中碳水化合物的比率
-carb_rate = st.number_input('请输入食品中碳水化合物比率 (每100克的百分比)', min_value=0.0, max_value=100.0, step=0.1)
+carb_rate = st.number_input('请输入食品中碳水重量 (每100克的重量)', min_value=0.0, max_value=100.0, step=0.1)
 # 使用 number_input 创建一个数值输入框，用户输入食品的碳水化合物比率，最小值为 0，最大值为 100，步长为 0.1。
 
 # 输入框，获取血糖升高值
