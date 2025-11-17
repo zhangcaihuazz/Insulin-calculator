@@ -50,7 +50,3 @@ if st.button('计算 ISF 并保存'):  # 注意按钮文字这里应该是"计�
             st.error('保存数据时出现问题，请重试!')
     else:
         st.warning('请确保碳水总量和胰岛素总量均大于0！')
-
-# 临时返回主页按钮
-if st.button("返回主页"):
-    st.switch_page("streamlit_app.py")
