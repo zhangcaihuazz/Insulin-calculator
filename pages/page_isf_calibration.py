@@ -17,7 +17,7 @@ else:
     rsi_value = rsi_data['rsi_value']
 
 # 设置页面标题
-st.title('ISF胰岛素敏感系数校准')  # 显示应用页面的标题
+st.header('ISF胰岛素敏感系数校准')  # 显示应用页面的标题
 
 # 页面描述，解释页面的功能
 st.write("""
