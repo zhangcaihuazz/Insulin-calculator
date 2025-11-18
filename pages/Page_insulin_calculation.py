@@ -15,7 +15,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../modules'))
 st.set_page_config(
     page_title="胰岛素计算",
     page_icon="💉",
-    layout="wide"
+    layout="centered"
 )
 
 # 初始化session_state
