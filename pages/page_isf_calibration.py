@@ -8,6 +8,12 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../modules'))
 # 导入 rsi_calibration 模块中的函数
 from modules.isf_calibration import calculate_isf, save_isf_data, load_rsi_data
 
+# 设置页面配置
+st.set_page_config(
+    page_title="基础信息录入",
+    page_icon="ISF",
+    layout="centered"
+
 # 加载RSI数据并检查
 rsi_data = load_rsi_data()
 if not rsi_data:
