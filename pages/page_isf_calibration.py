@@ -12,7 +12,8 @@ from modules.isf_calibration import calculate_isf, save_isf_data, load_rsi_data
 st.set_page_config(
     page_title="基础信息录入",
     page_icon="ISF",
-    layout="centered"
+    layout="centered",
+)
 
 # 加载RSI数据并检查
 rsi_data = load_rsi_data()
