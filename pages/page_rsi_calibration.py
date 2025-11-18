@@ -10,7 +10,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '../modules'))
 from modules.rsi_calibration import calculate_rsi, save_rsi_data  # 从你保存的模块中导入 calculate_rsi 和 save_rsi_data 函数
 
 # 设置页面标题
-st.title('RSI (升糖指数) 校准')  # 显示应用页面的标题
+st.header('RSI (升糖指数) 校准')  # 显示应用页面的标题
 
 # 页面描述，解释页面的功能
 st.write("""
