@@ -13,7 +13,7 @@ from modules.food_input import load_food_data, save_food_data, delete_food_data,
 st.set_page_config(
     page_title="食物信息录入",
     page_icon="🍎",
-    layout="wide"
+    layout="centered"
 )
 
 # 初始化session_state存储输入状态（放在这里）
