@@ -13,7 +13,8 @@ from modules.rsi_calibration import calculate_rsi, save_rsi_data  # 从你保存
 st.set_page_config(
     page_title="基础信息录入",
     page_icon="RSI",
-    layout="centered"
+    layout="centered",
+)
 
 # 设置页面标题
 st.header('RSI (升糖指数) 校准')  # 显示应用页面的标题
