@@ -1,10 +1,10 @@
 {
-  "isf_value": 0.63,
+  "isf_value": 2.39,
   "calculation_info": {
-    "carb_total_g": 19.275,
+    "carb_total_g": 73.275,
     "insulin_total_U": 19.0,
-    "estimated_blood_sugar_rise_mmol": 11.95
+    "estimated_blood_sugar_rise_mmol": 45.43
   },
-  "timestamp": "2025-11-19 03:53:59",
+  "timestamp": "2025-11-19 03:54:07",
   "note": "胰岛素敏感系数 (ISF) 计算数据"
 }
