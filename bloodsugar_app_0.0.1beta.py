@@ -1,11 +1,3 @@
-"""
-血糖胰岛素控制程序 - 主应用入口文件
-版本: Beta 0.0.1
-功能: 显示血糖胰岛素控制系统的当前状态仪表板
-"""
-#streamlit run bloodsugar_app_0.0.1beta.py
-
-# 导入必要的Python标准库模块
 import streamlit as st  # 用于构建Web应用的Python框架
 import streamlit.components.v1 as components
 import sys  # 提供对Python解释器相关功能的访问
