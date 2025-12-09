@@ -1,11 +1,11 @@
 {
-  "rsi_value": 0.95,
+  "rsi_value": 0.82,
   "calculation_info": {
     "weight_g": 4.0,
     "carb_rate_per_100g": 92.0,
     "carb_content_g": 3.68,
-    "blood_sugar_rise_mmol": 3.5
+    "blood_sugar_rise_mmol": 3.0
   },
-  "timestamp": "2025-12-09 00:23:25",
+  "timestamp": "2025-12-09 00:28:59",
   "note": "RSI (升糖指数) 计算数据"
 }
